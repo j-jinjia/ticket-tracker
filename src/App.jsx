@@ -13,7 +13,10 @@ import './App.scss';
  */
 const App = ()=> {
   return (
+    <>
     <div>Working!</div>
+    <div>Testing automatic deployment</div>
+    </>
   );
 }
 
