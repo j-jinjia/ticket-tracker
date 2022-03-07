@@ -1,5 +1,7 @@
 
 import './App.scss';
+import EmployeeInformation from './assets/components/Employee/Employee';
+import team from './data/data';
 
 
 /** PSEUDO CODE FOR TICKET TRACKER
@@ -14,8 +16,10 @@ import './App.scss';
 const App = ()=> {
   return (
     <>
-    <div>Working!</div>
-    <div>Testing automatic deployment</div>
+      <h1 className='header'>Ticket Tracker</h1>
+      <div className="software-team">
+        <EmployeeInformation employeeArr={team}/>
+      </div>
     </>
   );
 }
