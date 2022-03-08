@@ -1,0 +1,36 @@
+import React from 'react';
+import "./Employee.scss"
+
+const EmployeeInformation = ({employeeArr}) => {
+/*   const teamMember = employeeArr.map((employee)=>{
+    return [employee.name, employee.role]
+  })  */
+  return employeeArr.map(({name,role,id})=>{
+    
+    return (
+      <div key={id} className="employee__info">
+        <h3>{name}</h3>
+        <p>{role}</p>
+      </div>
+
+
+    )
+  })
+  
+}
+
+export default EmployeeInformation
+
+
+const App = ()=> {
+  return (
+    <>
+      <h1 className='header'>Ticket Tracker</h1>
+      <div className="software-team">
+        <EmployeeInformation employeeArr={team}/>
+      </div>
+    </>
+  );
+}
+
+export default App;
