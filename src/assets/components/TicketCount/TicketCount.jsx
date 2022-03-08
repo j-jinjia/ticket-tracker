@@ -6,7 +6,7 @@ const TicketCount = () => {
     const [counter,setCounter]=useState(0)
 
     const handleDecrement=()=>{
-        if (counter == 0 ){
+        if (counter === 0 ){
             setCounter(0)
         }else {
 
