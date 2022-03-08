@@ -1,9 +1,13 @@
 .header{
   text-align: center;
 }
-.software-team{
+.team{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  grid-gap:1rem;
+  grid-gap:2rem;
+  .team__card{
+    background-color: #EEEBDD;
+    border-radius: 20px;
+  }
   
 }
