@@ -16,25 +16,20 @@ const App = () => {
   const employee = team.map((teamEmployee) => {
     return (
       <>
-      <div className="team__card">
-        <EmployeeCard
-          employeeName={teamEmployee.name}
-          employeeRole={teamEmployee.role}
-        />
-        <TicketCount/>
-      </div>
+        <div className="team__card">
+          <EmployeeCard
+            employeeName={teamEmployee.name}
+            employeeRole={teamEmployee.role}
+          />
+        </div>
       </>
-
     );
   });
-
 
   return (
     <>
       <h1 className="header">Ticket Tracker</h1>
-      <div className="team">
-        {employee}
-      </div>
+      <div className="team">{employee}</div>
     </>
   );
 };
