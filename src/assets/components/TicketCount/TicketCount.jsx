@@ -1,11 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./TicketCount.scss";
-import {
-  TiArrowSortedDown,
-  TiArrowSortedUp,
-  IoTrashBinOutline,
-} from "react-icons/ti";
+import { TiArrowSortedDown, TiArrowSortedUp } from "react-icons/ti";
 import { MdDeleteForever } from "react-icons/md";
 
 const TicketCount = () => {
