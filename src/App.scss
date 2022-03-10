@@ -1,13 +1,43 @@
-.header{
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
 }
-.team{
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap:2rem;
-  .team__card{
-    background-color: #EEEBDD;
-    border-radius: 20px;
+.container{
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#393E46 ;
+  .container__header{
+    text-align: center;
+    font-size: 3rem;
+    color:#EEEBDD;
+    padding:2rem;
   }
-  
+  .container__team{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .team{
+      background-color: #EEEBDD;
+      border-radius: 20px;
+      margin:2rem;
+    }
+  }
 }
+@media only screen and (min-width: 768px){
+  .container{
+    .container__team{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+}
+@media only screen and (min-width: 1024px){
+  .container{
+    height: 100vh;
+    .container__team{
+      display:grid;
+      grid-template-columns: repeat(5,1fr);
+    }
+  }
+}
+

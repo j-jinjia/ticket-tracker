@@ -15,7 +15,7 @@ const App = () => {
   const employee = team.map((teamEmployee) => {
     return (
       <>
-        <div className="team__card">
+        <div className="team">
           <EmployeeCard
             employeeName={teamEmployee.name}
             employeeRole={teamEmployee.role}
@@ -27,8 +27,10 @@ const App = () => {
 
   return (
     <>
-      <h1 className="header">Ticket Tracker</h1>
-      <div className="team">{employee}</div>
+      <div className="container">
+        <h1 className="container__header">Ticket Tracker</h1>
+        <div className="container__team">{employee}</div>
+      </div>
     </>
   );
 };
