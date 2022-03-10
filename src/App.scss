@@ -4,11 +4,10 @@
 }
 .container{
   font-family: 'Courier New', Courier, monospace;
-  background-color:#393E46 ;
   .container__header{
     text-align: center;
     font-size: 3rem;
-    color:#EEEBDD;
+    color:#1B1717;
     padding:2rem;
   }
   .container__team{
@@ -33,7 +32,6 @@
 }
 @media only screen and (min-width: 1024px){
   .container{
-    height: 100vh;
     .container__team{
       display:grid;
       grid-template-columns: repeat(5,1fr);
