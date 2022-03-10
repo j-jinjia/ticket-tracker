@@ -1,7 +1,6 @@
 import "./App.scss";
 import EmployeeCard from "./assets/components/Employee/Employee";
 import team from "./data/data";
-import TicketCount from "./assets/components/TicketCount/TicketCount";
 
 /** PSEUDO CODE FOR TICKET TRACKER
  * COMPONENTS:
