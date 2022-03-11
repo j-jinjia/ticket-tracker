@@ -1,7 +1,7 @@
 @use "../../sass/variables" as *;
 
 .settings-menu {
-    background-color: $color-black;
+    background-color: $color-settings-background;
     position: fixed;
     top: 0;
     left: 0;
@@ -55,14 +55,14 @@
   
   @media screen and (min-width: 992px) {
     .settings-menu {
-      background-color: rgba($color-black, 0.8);
+      background-color: rgba($color-settings-background, 0.8);
       display: flex;
       justify-content: center;
       align-items: center;
   
       &__content {
         position: relative;
-        background-color: $color-black;
+        background-color: $color-settings-background;
         width: 30%;
         height: 80%;
         border-radius: 15px;
