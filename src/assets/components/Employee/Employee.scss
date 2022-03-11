@@ -1,6 +1,7 @@
+@use "../../sass/variables" as *;
 .employee{
-    background-color: #810000;
-    color:#EEEEEE;
+    background-color: $color-darkRed;
+    color:$color-notwhite;
     border-radius: 20px;
     text-align: center;
     margin:1rem;

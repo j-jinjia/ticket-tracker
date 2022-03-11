@@ -1,0 +1,72 @@
+@use "../../sass/variables" as *;
+
+.instructions-menu {
+  background-color: $color-black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__cross {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__title {
+    color: $color-white;
+    font-size: 3rem;
+    margin:1rem;
+    padding:1rem;
+    
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: inside;
+    color: $color-white;
+    font-size:1.5rem;
+    width: 60vw;
+    li{
+      margin:1rem;
+    }
+  
+    
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .settings-menu {
+    background-color: rgba($color-black, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+      position: relative;
+      background-color: $color-black;
+      width: 30%;
+      height: 80%;
+      border-radius: 15px;
+    }
+
+    &__cross {
+      right: 20px;
+    }
+  }
+}
