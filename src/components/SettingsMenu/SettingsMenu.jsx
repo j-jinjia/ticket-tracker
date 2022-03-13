@@ -26,7 +26,7 @@ const SettingsMenu = (props) => {
           />
           <label htmlFor="lastName">Last name</label>
           <input type="text" name="lastName" className="settings-menu__input" />
-          <Button isSecondary={true} buttonText={"Save"} />
+          <Button buttonText={"Save"} />
         </form>
       </div>
     </div>

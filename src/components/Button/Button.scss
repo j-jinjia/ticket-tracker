@@ -1,18 +1,13 @@
 @use "../../assets/sass/variables" as *;
 
-.button {
+.save-button {
   min-width: 80px;
   padding: 10px 20px;
   border-radius: 15px;
   border: none;
   cursor: pointer;
+  background-color: $color-buttons-backgorund;
+  color: $color-buttons-icons;
+
 }
 
-.primary {
-  background-color: transparent;
-  border: 2px solid $color-primary;
-}
-
-.secondary {
-  background-color: $color-secondary;
-}
