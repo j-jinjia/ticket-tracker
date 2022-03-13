@@ -1,6 +1,7 @@
 @use "../../assets/sass/variables" as *;
 .settings-menu {
-    background-color: $color-settings-background;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: $color-blue;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,15 +16,18 @@
       justify-content: center;
       align-items: center;
     }
-  
+    
     &__cross {
       position: absolute;
       top: 20px;
       right: 50px;
-  
+      
       &:hover {
         cursor: pointer;
       }
+    }
+    &__profile{
+      width:200px;
     }
     &__title {
       color: $color-white;
@@ -47,28 +51,7 @@
   
       &:focus {
         outline: none;
-        border: 5px solid $color-primary;
-      }
-    }
-  }
-  
-  @media screen and (min-width: 992px) {
-    .settings-menu {
-      background-color: rgba($color-settings-background, 0.8);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      &__content {
-        position: relative;
-        background-color: $color-settings-background;
-        width: 30%;
-        height: 80%;
-        border-radius: 15px;
-      }
-  
-      &__cross {
-        right: 20px;
+        border: 5px solid $color-text;
       }
     }
   }

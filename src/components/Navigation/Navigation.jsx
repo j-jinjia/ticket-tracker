@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./Navigation.scss";
-import settings from "../../assets/images/settings-icon.png";
+import user from "../../assets/images/login-icon.png";
 import instructions from "../../assets/images/instruction-icon.png";
 import SettingsMenu from "../SettingsMenu/SettingsMenu";
 import InstructionsMenu from "../InstructionsMenu/InstructionsMenu";
@@ -28,10 +28,11 @@ const Navigation = (props) => {
         <InstructionsMenu toggleInstructions={toggleInstructions} />
       )}
       <img
-        src={settings}
+        src={user}
         className="navigation__settings"
         alt="settings-icon"
         onClick={toggleSettings}
+        width="50px"
       />
       <img
         src={instructions}

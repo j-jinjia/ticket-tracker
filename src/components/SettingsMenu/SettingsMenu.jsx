@@ -1,6 +1,6 @@
 import React from "react";
 import "./SettingsMenu.scss";
-import profilePicture from "../../assets/images/profile-picture.png";
+import user from "../../assets/images/login-icon.png";
 import whiteCross from "../../assets/images/white-cross.png";
 import Button from "../Button/Button";
 
@@ -15,11 +15,7 @@ const SettingsMenu = (props) => {
           className="settings-menu__cross"
           onClick={toggleSettings}
         />
-        <img
-          src={profilePicture}
-          alt="profile"
-          className="settings-menu__profile"
-        />
+        <img src={user} alt="profile" className="settings-menu__profile" />
         <h2 className="settings-menu__title">{userName}</h2>
         <form className="settings-menu__form" onSubmit={handleSubmit}>
           <label htmlFor="firstName">First name</label>
