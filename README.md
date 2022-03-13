@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+#Ticket Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created using React. Here's a link to the live site:
 
-## Available Scripts
+- https://j-jinjia.github.io/ticket-tracker/
 
-In the project directory, you can run:
+# ABOUT
 
-### `npm start`
+The ticket tracker was created with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Functinality and Layout: JSX and SASS (SCSS, and BEM notation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It has a responsive design for:
 
-### `npm test`
+- Mobile devices and tablets up to 768px
+- Tablets and small laptops up to 1024px
+- Pc monitors and larger devices from 1024px
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I created this wireframe for the app using FIGMA
 
-### `npm run build`
+- https://www.figma.com/file/yMmSVZ7iWtLmXYwmZwUBBb/Ticket-Tracker-React?node-id=0%3A1
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This ticket tracker can be used as follows:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Read the instructions from the top of the page.
+- CLick the buttons to add or substracttickets from the counter
 
-### `npm run eject`
+# Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+With this ticket tracker you can:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Personalise the greeting with your name by clicking into the settings icon
+- Show the instructions on how to use the app clickin the information button
+- Add tickets to the counter with the arrow up button
+- Substract tickets to the counter with the arrow down button. The ticket count will start at 0.
+- Delete tickets from the counter with the bin icon
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Preview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mobile device <br>
+![Ticket Tracker Mobile]
+Tablet device <br>
+![Ticket Tracker Tablet]
+PC monitor or larger <br>
+![Ticket Tracker desktop]

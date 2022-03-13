@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 import "./Navigation.scss";
-import settings from "../../images/settings-icon.png";
-import instructions from "../../images/instruction-icon.png";
-import SettingsMenu from "../Settingsmenu/SettingsMenu";
+import settings from "../../assets/images/settings-icon.png";
+import instructions from "../../assets/images/instruction-icon.png";
+import SettingsMenu from "../SettingsMenu/SettingsMenu";
 import InstructionsMenu from "../InstructionsMenu/InstructionsMenu";
 
 const Navigation = (props) => {

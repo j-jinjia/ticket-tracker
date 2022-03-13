@@ -1,7 +1,7 @@
 import "./App.scss";
-import EmployeeCard from "./assets/components/Employee/Employee";
+import EmployeeCard from "./components/Employee/Employee";
 import team from "./data/data";
-import Navigation from "./assets/components/Navigation/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 import { useState } from "react";
 
 /** PSEUDO CODE FOR TICKET TRACKER
@@ -17,12 +17,10 @@ const App = () => {
   const employee = team.map((teamEmployee) => {
     return (
       <>
-        <div className="team">
-          <EmployeeCard
-            employeeName={teamEmployee.name}
-            employeeRole={teamEmployee.role}
-          />
-        </div>
+        <EmployeeCard
+          employeeName={teamEmployee.name}
+          employeeRole={teamEmployee.role}
+        />
       </>
     );
   });
@@ -43,12 +41,11 @@ const App = () => {
 
   return (
     <>
-      <div className="nav">
-        <Navigation
-          userName={`${user.firstName} ${user.lastName}`}
-          handleSubmit={handleSubmit}
-        />
-      </div>
+      <Navigation
+        userName={`${user.firstName} ${user.lastName}`}
+        handleSubmit={handleSubmit}
+      />
+
       <div className="container">
         <h1 className="container__heading">
           Hello, <br /> {user.firstName} {user.lastName}! Welcome to your ticket

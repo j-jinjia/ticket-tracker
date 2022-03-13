@@ -1,7 +1,8 @@
-@use "../../sass/variables" as *;
+@use "../../assets/sass/variables" as *;
 .ticket-counter{
-    background-color: $color-red;
+    background-color: $color-blue;
     color:$color-notwhite;
+    height:150px;
     border-radius: 20px;
     text-align: center;
     margin:1rem;

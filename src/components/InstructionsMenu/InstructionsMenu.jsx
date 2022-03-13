@@ -1,4 +1,4 @@
-import whiteCross from "../../images/white-cross.png";
+import whiteCross from "../../assets/images/white-cross.png";
 import React from "react";
 import "./InstructionsMenu.scss";
 
@@ -16,7 +16,7 @@ const InstructionsMenu = (props) => {
         <h2 className="instructions-menu__title">Instructions</h2>
         <ul className="instructions-menu__list">
           <li key="">
-            Click the Settings icon to change the user's name and username
+            Click the Settings icon to change the user's name and surname
           </li>
           <li>
             Click the arrow up or down to increase or decrease the ticket count

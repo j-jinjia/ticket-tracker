@@ -1,9 +1,10 @@
+@use "./assets/sass/variables" as *;
 *{
   margin:0;
   padding: 0;
 }
 body{
-  background-color:#8c99ad;
+  background-color:$color-blue;
   padding: 1rem;
   margin:1rem;
 }
@@ -12,7 +13,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   .container__heading{
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color:#EEEBDD;
     padding:2rem;
   }
@@ -21,27 +22,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .team{
-      background-color: #EEEBDD;
-      border-radius: 20px;
-      margin:2rem;
-    }
   }
 }
 @media only screen and (min-width: 768px){
   .container{
+    .container__heading{
+      font-size: 2rem;
+    }
     .container__team{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
+      flex-direction: row;
+      flex-wrap: wrap;
     }
   }
 }
 @media only screen and (min-width: 1024px){
   .container{
+    .container__heading{
+      font-size: 3rem;
+    }
     .container__team{
       display:grid;
       grid-template-columns: repeat(5,1fr);
     }
   }
 }
+
 

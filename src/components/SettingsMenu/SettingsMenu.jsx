@@ -1,7 +1,7 @@
 import React from "react";
 import "./SettingsMenu.scss";
-import profilePicture from "../../images/profile-picture.png";
-import whiteCross from "../../images/white-cross.png";
+import profilePicture from "../../assets/images/profile-picture.png";
+import whiteCross from "../../assets/images/white-cross.png";
 import Button from "../Button/Button";
 
 const SettingsMenu = (props) => {
